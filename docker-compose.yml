@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always
+    container_name: pinkcc-website
+    networks:
+      - pinkcc-network
+      
+networks:
+  pinkcc-network:
+    driver: bridge

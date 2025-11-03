@@ -1,0 +1,533 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PinkCCLab</title>
+    <meta name="description"
+        content="Modern and sober white & pink website with works, publications, team, and contact." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header class="site-header">
+        <a href="#" class="brand">
+            <img src="assets/img/pinkcc.png" alt="PinkCCLab Logo" class="logo" />
+        </a>
+        <input id="nav-toggle" type="checkbox" aria-label="Open menu" />
+        <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
+        <nav class="nav">
+            <a href="#works">🚀 Works</a>
+            <a href="#publications">📚 Publications</a>
+            <a href="#team">👥 Team</a>
+            <a href="#contact">💬 Contact</a>
+        </nav>
+    </header>
+
+    <!-- MARK: Hero -->
+    <section class="hero" id="home" aria-label="Hero">
+        <div class="hero-inner">
+            <div class="hero-copy">
+                <p class="eyebrow">
+                    ✨ Bridging the gap between health and technology
+                </p>
+                <h1>PINKCC Lab</h1>
+                <p class="sub">
+                    The PinkCC Lab is a multidisciplinary research group combining artificial intelligence, bioinformatics, and medical imaging to unravel cancer complexity and drive innovation in precision medicine.
+                </p>
+                <div class="hero-actions">
+                    <a href="#works" class="btn primary">Explore our work 🚀</a>
+                    <a href="#contact" class="btn ghost">Contact us 💬</a>
+                </div>
+                <ul class="hero-stats" aria-label="Quick highlights">
+                    <li>🔬 4 data sources</li>
+                    <li>🧠 on edge AI</li>
+                    <li>📚 X publications</li>
+                </ul>
+            </div>
+            <div class="hero-media">
+                <div>
+                    <img src="assets/img/pinkcc.png" alt="Abstract workspace with pink accents"
+                        style="height: 160px; width: auto" />
+                    <div class="inline">
+                        <img src="assets/img/ircm.png" alt="IRCM Logo" style="height: 80px; width: auto" />
+                        <img src="assets/img/icm.png" alt="ICM Logo" style="height: 80px; width: auto" />
+                        <img src="assets/img/inserm.png" alt="INSERM Logo" style="height: 80px; width: auto" />
+                        <img src="assets/img/umontpellier.png" alt="University of Montpellier Logo"
+                            style="height: 80px; width: auto" />
+                        <img src="assets/img/erc.png" alt="ERC Logo" style="height: 80px; width: auto" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARK: Works -->
+    <section class="section" id="works" aria-labelledby="works-title">
+        <div class="container">
+            <h2 id="works-title">🚀 TODO Our Works</h2>
+            <p class="section-lead">
+                Explore our ongoing projects, from experimental studies to computational developments, showcasing how we
+                combine data science and biology to address key challenges in health and ecology.
+            </p>
+            <div class="grid cards">
+                <!-- PROJECT A -->
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
+                        alt="Data visualization on pink background" />
+                    <div class="card-body">
+                        <h3>Project A</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus vehicula sapien.
+                        </p>
+                        <div class="centered">
+                            <button class="btn primary open-modal" data-target="#proj-a">
+                                View project →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!-- PROJECT B -->
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
+                        alt="Data visualization on pink background" />
+                    <div class="card-body">
+                        <h3>Project B</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus vehicula sapien.
+                        </p>
+                        <div class="centered">
+                            <button class="btn primary open-modal" data-target="#proj-b">
+                                View project →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!-- PROJECT C -->
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
+                        alt="Data visualization on pink background" />
+                    <div class="card-body">
+                        <h3>Project C</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus vehicula sapien.
+                        </p>
+                        <div class="centered">
+                            <button class="btn primary open-modal" data-target="#proj-c">
+                                View project →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARK: Publications -->
+    <section class="section alt" id="publications" aria-labelledby="pubs-title">
+        <div class="container">
+            <h2 id="pubs-title">📚 Publications</h2>
+            <p class="section-lead">
+                Discover our latest scientific contributions, where we share advances in genomics, bioinformatics, and
+                AI-driven biomedical research through peer-reviewed articles and conference papers.
+            </p>
+            <ol class="pub-list">
+                <li>
+                    <h3>Title of the Paper One</h3>
+                    <p>
+                        <strong>Authors:</strong> Lorem Ipsum, Dolor Sit, Amet Consectetur
+                        (2025)
+                    </p>
+                    <p class="muted">
+                        Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer posuere erat a ante.
+                    </p>
+                    <a href="#" class="link">Read more →</a>
+                </li>
+                <li>
+                    <h3>Title of the Paper Two</h3>
+                    <p><strong>Authors:</strong> Adipiscing Elit, Sed Do (2024)</p>
+                    <p class="muted">
+                        Abstract: Cras mattis consectetur purus sit amet fermentum.
+                        Integer posuere erat a ante.
+                    </p>
+                    <a href="#" class="link">Read more →</a>
+                </li>
+                <li>
+                    <h3>Title of the Paper Three</h3>
+                    <p><strong>Authors:</strong> Eiusmod Tempor, Incididunt (2023)</p>
+                    <p class="muted">
+                        Abstract: Aenean lacinia bibendum nulla sed consectetur.
+                        Vestibulum id ligula porta felis.
+                    </p>
+                    <a href="#" class="link">Read more →</a>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- MARK: Team -->
+    <section class="section" id="team" aria-labelledby="team-title">
+        <div class="container">
+            <h2 id="team-title">👥 Our Team</h2>
+            <p class="section-lead">
+                Our team brings together researchers and engineers at the crossroads of genomics, medical imaging, and
+                artificial intelligence — united by a shared goal: turning complex biological data into meaningful
+                insights for precision medicine.
+            </p>
+            <div class="grid team">
+                <article class="person">
+                    <img src="assets/img/jean-philipe/head.jpg" alt="Portrait of Jean-Philippe Villemin" />
+                    <h3>Jean-Philippe Villemin</h3>
+                    <p class="role">Postdoctoral</p>
+                    <div class="centered">
+                        <button class="btn primary open-modal" data-target="#person-jean-philippe">
+                            View more →
+                        </button>
+                    </div>
+                    <p class="muted">
+                        Jean-Philippe Villemin is a postdoctoral researcher in bioinformatics specializing in cancer
+                        genomics and digital pathology, currently exploring tumor heterogeneity in high-grade serous
+                        ovarian carcinoma through spatial transcriptomics to improve patient stratification and clinical
+                        insights.
+                    </p>
+                </article>
+                <article class="person">
+                    <img src="assets/img/charles/head.jpg" alt="Portrait of team member" />
+                    <h3>Charles Berger</h3>
+                    <p class="role">PhD student</p>
+                    <div class="centered">
+                        <button class="btn primary open-modal" data-target="#person-charles">
+                            View more →
+                        </button>
+                    </div>
+                    <p class="muted">
+                        A PhD candidate in medical imaging and AI from EPFL, he investigates tumor biology in high-grade
+                        serous ovarian cancer using CT/MRI-based radiomics to develop virtual biopsies, focusing on
+                        reproducible, explainable, and multimodal AI for precision oncology.
+                    </p>
+                </article>
+                <article class="person">
+                    <img src="assets/img/chad/head.png" alt="Portrait of Chad Estoup--Streiff" />
+                    <h3>Chad Estoup--Streiff</h3>
+                    <p class="role">PhD student</p>
+                    <div class="centered">
+                        <button class="btn primary open-modal" data-target="#person-chad">
+                            View more →
+                        </button>
+                    </div>
+                    <p class="muted">
+                        An AI and software engineer pursuing a PhD, building machine-learning systems for medical
+                        imaging and multimodal data combining deep learning, histopathology and large-scale analytics.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARK: Contact -->
+    <section class="section alt" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+            <h2 id="contact-title">💬 Contact Us</h2>
+            <p class="section-lead">
+                Feel free to reach out to us with any questions or inquiries. We’d
+                love to hear from you!
+            </p>
+            <div class="centered">
+                <a href="mailto:info@pinkcclab.com" class="cta">📧 Email Us</a>
+            </div>
+            <h4>info@pinkcclab.com</h4>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> PinkCCLab — All rights reserved.</p>
+    </footer>
+
+    <script>
+        // small nicety for the year
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <!-- MARK: PROJECT A -->
+    <div class="modal" id="proj-a" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog">
+            <button class="modal-close" aria-label="Close">✕</button>
+            <div class="modal-media">
+                <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop"
+                    alt="" />
+            </div>
+            <div class="modal-content">
+                <h3>Project A — Predictive Insights</h3>
+                <p class="muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                    blandit tempus porttitor.
+                </p>
+                <ul>
+                    <li>🎯 Goal: Lorem ipsum dolor sit amet.</li>
+                    <li>🛠️ Stack: Python, FastAPI, Postgres.</li>
+                    <li>📈 Outcome: +32% efficiency.</li>
+                </ul>
+                <div class="modal-actions">
+                    <a href="#" class="btn ghost">Presentation deck 📑</a>
+                    <a href="#" class="btn primary">Contact about this 🚀</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARK: PROJECT B -->
+    <div class="modal" id="proj-b" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog">
+            <button class="modal-close" aria-label="Close">✕</button>
+            <div class="modal-content" style="grid-column: 1/-1">
+                <h3>Project B — Collaborative Analytics</h3>
+                <p class="muted">
+                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                    vestibulum.
+                </p>
+                <div class="grid cards" style="grid-template-columns: repeat(3, 1fr)">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop"
+                        alt="" />
+                    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1200&auto=format&fit=crop"
+                        alt="" />
+                    <img src="https://images.unsplash.com/photo-1529336953121-3e58ab6a7e71?q=80&w=1200&auto=format&fit=crop"
+                        alt="" />
+                </div>
+                <h4>Highlights</h4>
+                <ol>
+                    <li>Realtime dashboards</li>
+                    <li>Role-based access</li>
+                    <li>Automated reporting</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARK: PROJECT C -->
+    <div class="modal" id="proj-c" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog">
+            <button class="modal-close" aria-label="Close">✕</button>
+            <div class="modal-media">
+                <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1600&auto=format&fit=crop"
+                    alt="" />
+            </div>
+            <div class="modal-content">
+                <h3>Project C — ML Platform</h3>
+                <p class="muted">
+                    Vestibulum id ligula porta felis euismod semper. Donec sed odio dui.
+                </p>
+                <pre><code>// Pseudo-API
+POST /api/train
+{ "model":"xgb", "cv":5, "metrics":["auc","f1"] }</code></pre>
+                <p>Docs: Lorem ipsum dolor sit amet…</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARK: JEAN-PHILIPPE -->
+    <div class="modal" id="person-jean-philippe" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog">
+            <button class="modal-close" aria-label="Close">✕</button>
+            <div class="modal-content" style="grid-column: 1/-1">
+                <div class="centered"><img src="assets/img/jean-philipe/head.jpg" alt="Jean-Philippe Villemin"
+                        class="personhead" /></div>
+                <h3>Jean-Philippe Villemin</h3>
+                <p class="muted">
+                    Postdoctoral Researcher in Bioinformatics
+                </p>
+                <p>
+                <h4>Who I Am</h4>
+                <p>I’m a postdoctoral researcher in bioinformatics specializing in cancer genomics and digital
+                    pathology. After ten years as a bioinformatics engineer across a university hospital (CHU), the
+                    Institut de Génétique in Montpellier, and the Centre Léon Bérard in Lyon, I defended my PhD in 2021.
+                    I now focus on the genomics on the High-grade serous ovarian carcinoma using spatial
+                    Transcriptomics.I care about reproducible science and translating omics + WSI into clinically useful
+                    insights. Outside the lab, I like kittens, good beer, and running.
+                </p>
+
+                <div class="centered">
+                    <img src="assets/img/jean-philipe/image.png" alt="Jean-Philippe Villemin"
+                        style="width:700px; height:auto; border-radius:10px; margin-bottom:20px;" />
+                </div>
+
+                <h4>Project</h4>
+                <p>Exploring the heterogeneous landscape of High-Grade Serous Ovarian Carcinoma with Spatial
+                    Transcriptomics.</p>
+
+                <p>High-grade serous ovarian carcinoma (HGSOC) is an aggressive malignancy marked by extreme cellular
+                    heterogeneity, rapid progression, and frequent relapse after standard therapy. Current management
+                    generally combines cytoreductive surgery with platinum/taxane chemotherapy and targeted agents such
+                    as PARP inhibitors, yet overall survival at five years remains below 50%.
+                <p>A major unmet need is precise patient stratification: we still cannot reliably predict who will
+                    respond to which treatment, or who will develop resistance. This limitation reflects the coexistence
+                    of multiple tumor clones and a complex, spatially organized microenvironment that is not fully
+                    understood.</p>
+                <p>In this project, we apply spatial transcriptomics to a prospective HGSOC cohort with numerous samples
+                    collected from multiple anatomical sites (adnexa, omentum, peritoneum). This approach allows us to
+                    map, in situ, the clonal architecture of the tumor, the local stromal landscape, and the
+                    site-specific transcriptional programs that may drive aggressiveness. We will also discuss analytic
+                    strategies to build and interpret this spatial atlas, including methods to annotate spatial
+                    transcriptomic data, to decipher intra- and inter-tumoral heterogeneity, and to address the
+                    computational challenges posed by the scale and complexity of these high-dimensional datasets.</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- MARK: CHARLES -->
+    <div class="modal" id="person-charles" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog">
+            <button class="modal-close" aria-label="Close">✕</button>
+            <div class="modal-content" style="grid-column: 1/-1">
+                <div class="centered"><img src="assets/img/charles/head.jpg" alt="Charles Berger" class="personhead" />
+                </div>
+                <h3>Charles Berger</h3>
+                <p class="muted">
+                    PhD Student in Medical Imaging and AI
+                </p>
+                <p>
+                <h4>Who I Am</h4>
+                <p>I am a Bioengineer from the École Polytechnique Fédérale de Lausanne (EPFL), where I completed a
+                    Master’s degree in Biophotonics and Bioimaging. Throughout my studies, I completed several
+                    internships ranging from automatic bone segmentation using active parametric contours on CT images
+                    to ECG signal reconstruction (BIG Lab, EPFL), as well as quality assessment research (SIMED, HUG).
+                </p>
+                <p>These experiences strengthened my desire to build a career at the intersection of medical imaging,
+                    artificial intelligence, and clinical translation. I am particularly motivated by the collaborative
+                    and multidisciplinary nature of this field, which brings together expertise in medicine,
+                    bioinformatics, and image processing—an essential combination for successfully integrating AI into
+                    clinical practice.</p>
+                <p>As such, I am pursuing a PhD under the direction of Prof. Nougaret and co-supervise with Dr. Subsol
+                    (CNRS researcher at LIRMM). My research focuses on unravelling tumor biology in high-grade serous
+                    ovarian cancer through CT/MRI-based radiomics features, with the goal of developing virtual biopsy
+                    applications. This PhD is co-funded by the “IA pour la santé” (ANITI) program and INSERM.</p>
+                <h4>What I Care About</h4>
+                <p>My current work is centered on improving the reproducibility, explainability, standardization, and
+                    transparency of AI pipelines—both in deep learning and machine learning—as well as in radiomics
+                    feature extraction.</p>
+                <p>To achieve this, I emphasize robust environment configuration, version control, and the use of modern
+                    tools and frameworks, such as UV (package management), PyTorch Lightning, Hydra, MONAI, and Hugging
+                    Face Datasets.</p>
+                <p>Looking ahead, I am particularly interested in advancing explainability methods, which I believe are
+                    a critical and necessary step for the safe and trustworthy application of AI in clinical settings.
+                </p>
+                <h4>My Hobbies</h4>
+                <p>Outside of research, I enjoy playing video games, watching anime, playing guitar (hoping to get back
+                    into it soon!), indoor climbing, weight training, reading, and building miniature models. I’m also a
+                    big animal lover, especially when it comes to cats.</p>
+
+                <h4></h4>My Project</h4>
+                <p>Unravelling tumor biology in ovarian cancer with CT radiomics based features : the era of virtual
+                    biopsies (Project OCAS)</p>
+
+                <p>This project targets high-grade serous ovarian carcinoma (HGSOC), known for its advanced metastatic
+                    presentation and variable response to neoadjuvant chemotherapy (NACT) followed by delayed primary
+                    surgery (DPS). Despite the current treatment regimen, approximately 39% of patients do not benefit,
+                    highlighting the need for improved therapeutic approaches.</p>
+
+                <p>We acknowledge the complexity of HGSOC, from visible metastatic tumor volumes to microscopic
+                    tumor-immune environments and genomic diversity. Our goal is to enhance patient care by identifying
+                    subpopulations before treatment, such as those unlikely to respond to NACT, who might benefit more
+                    from immediate surgery </p>
+
+                <p>Historically, predictive studies have primarily relied on single data streams, such as clinical
+                    features or CT imaging. However, the potential of integrative, multi-omic models—which require large
+                    and well-annotated datasets—remains largely underexplored. Recent advances in Artificial
+                    Intelligence for precision oncology are increasingly centered on multimodal and multitask
+                    approaches. These models not only generate multiple outputs for distinct but correlated tasks but
+                    also integrate heterogeneous data types (e.g., text, tabular data, medical images). Such integration
+                    enables the combination of complementary information across biological scales—for instance, linking
+                    microscopic data (gene expression, histopathology) with macroscopic data (MRI scans, clinical
+                    reports)—to achieve a more holistic understanding of disease biology. Our project, OCAS, aims to
+                    advance this paradigm by leveraging two comprehensive datasets encompassing clinical data,
+                    chemotherapy response, CA-125 levels, circulating tumor DNA (ctDNA), and radiomic features at
+                    diagnosis. These multimodal data will be integrated into an ensemble machine-learning model designed
+                    to predict volumetric response to neoadjuvant chemotherapy (NACT), with a particular emphasis on the
+                    predictive power of radiomic features.</p>
+
+                <p>OCAS consists of three key components:</p>
+                <li>Development of an auto-segmentation system: Leveraging a large database of annotated radiological
+                    images and deep learning to accurately identify carcinomatous regions, enabling early tumor
+                    detection and personalized treatment strategies. This tackles thematics around model evaluation
+                    pipeline as well as metric selection for model evaluation and segmentation quality assessment.</li>
+                <li>Extraction of radiomic and pathomic data: Analyzing segmented images to derive radiomic and pathomic
+                    features, providing deeper insights into tumor characteristics and aiding in the discovery of
+                    precise biomarkers for better prognostics and treatment responses. This is where mutlimodality and
+                    multitask model architectures are deevlopped, especially for combining clinical data with radiomics
+                    features and also radiomics maps.</li>
+                <li>Identification of distinct clusters: Applying machine learning to pathomic and radiomic data to
+                    identify HGSOC subgroups with unique behaviors and susceptibilities, facilitating a precision
+                    medicine approach tailored to individual tumor characteristics (through Habitat Imaging method). By
+                    advancing our understanding and management strategies for HGSOC, OCAS aims to significantly improve
+                    treatment personalization and patient outcomes, representing a major step forward</li>
+
+                <div class="centered">
+                    <img src="assets/img/charles/image.png" alt="OCAS project illustration"
+                        style="width:700px; height:auto; border-radius:10px; margin-bottom:20px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MARK: Chad Estoup--Streiff-->
+    <div class="modal" id="person-chad" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog">
+            <button class="modal-close" aria-label="Close">✕</button>
+            <div class="modal-content" style="grid-column: 1/-1">
+                <div class="centered"><img src="assets/img/chad/head.png" alt="Chad Estoup--Streiff"
+                        class="personhead" />
+                </div>
+                <div class="centered">
+                    <img src="assets/img/chad/head.jpg" alt="Chad Estoup--Streiff" class="personhead" />
+                </div>
+                <h3>Chad Estoup--Streiff</h3>
+                <p class="muted">AI Engineer & PhD Student in Medical Imaging</p>
+
+                <h4>Who I Am</h4>
+                <p>
+                    I’m an AI and software engineer developing machine learning systems for medical imaging and
+                    multimodal biomedical data. My PhD focuses on integrating radiomics, histopathology, and genomic
+                    data to improve ovarian cancer diagnosis and treatment prediction. I’m passionate about building
+                    reliable and explainable AI models that bridge research and clinical practice.
+                </p>
+
+                <div class="centered">
+                    <img src="assets/img/chad/bbx.png" alt="Deep learning box prediction illustration"
+                        style="width:500px; height:auto; border-radius:10px; margin-bottom:20px;" />
+                </div>
+
+                <h4>Project</h4>
+                <p>
+                    My current research aims to design deep learning architectures capable of processing complex medical
+                    data — including CT, MRI, and whole-slide images — within unified, multimodal frameworks. I work on
+                    reproducible training pipelines, feature harmonization, and explainability modules for clinical
+                    deployment.
+                </p>
+
+                <h4>Technical Skills</h4>
+                <p>
+                    Expert in Python, PyTorch, and computer vision, I build AI models and infrastructure from data
+                    curation to deployment. My experience includes deep learning, radiomics, multimodal fusion, and
+                    high-performance computing with Docker, FastAPI, and MLflow. I prioritize clean, modular code and
+                    reproducible science.
+                </p>
+
+                <h4>Beyond Research</h4>
+                <p>
+                    I enjoy all kind of science and technology topics or any meaningful projects. I also love sports
+                    such as climbing, hiking and wrestling.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
