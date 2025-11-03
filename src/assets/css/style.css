@@ -447,4 +447,8 @@ h4 {
     .personhead {
       width: 80%;
     }
+
+    .inline {
+        flex-direction: column;
+    }
 }
