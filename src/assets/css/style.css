@@ -139,10 +139,11 @@ a:hover {
 
 /* Hero */
 .hero {
-  height: 94vh;
+  min-height: 94vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 40px;
 }
 .hero-inner {
   max-width: 70vw;
