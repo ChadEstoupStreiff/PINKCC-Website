@@ -192,7 +192,6 @@ a:hover {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: var(--shadow);
 }
 
 .btn {
@@ -316,7 +315,7 @@ a:hover {
 .grid.team {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-top: 22px;
 }
 @media (max-width: 960px) {
@@ -333,20 +332,29 @@ a:hover {
   border: 1px solid #f4e1eb;
   border-radius: 14px;
   box-shadow: var(--shadow);
+  padding: 12px;
+  height: 100%;
+  width: 100%;
 
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .person img {
   width: 100%;
-  height: 240px;
+  height: 200px;
   object-fit: cover;
   border-radius: 14px;
 }
 .person h3 {
   margin: 10px 0 4px;
 }
+.person p {
+  font-size: 0.8rem;
+}
 .role {
-  font-weight: 700;
+  font-weight: 500;
   color: #333;
   margin: 0 0 6px;
 }
