@@ -36,8 +36,10 @@ img {
 
 /* Header */
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 20;
   display: flex;
   flex-direction: column;
@@ -71,7 +73,7 @@ img {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-.site-header .banner h2 {
+.site-header .banner h3 {
   margin: 10px;
 }
 .brand {
@@ -170,7 +172,7 @@ a:hover {
 
 /* Hero */
 .hero {
-  min-height: 94vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
