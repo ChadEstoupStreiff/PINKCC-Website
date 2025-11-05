@@ -348,6 +348,7 @@ a:hover {
   border-radius: 14px;
 }
 .person h3 {
+  font-size: 0.9rem;
   margin: 10px 0 4px;
 }
 .person p {
