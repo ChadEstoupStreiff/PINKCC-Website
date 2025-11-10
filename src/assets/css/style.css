@@ -215,6 +215,9 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 40px;
+  background-color: rgb(153, 0, 54);
+  background: url('../img/hero_background.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 .hero-inner {
   max-width: 70vw;
@@ -233,12 +236,13 @@ a:hover {
   margin: 0 0 10px;
 }
 .hero h1 {
-  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-size: 1.8rem;
   line-height: 1.12;
   margin: 0.2em 0;
+  color: white;
 }
 .sub {
-  color: var(--muted);
+  color: rgb(226, 226, 226);
   max-width: 60ch;
 }
 .hero-actions {
@@ -258,6 +262,14 @@ a:hover {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.partners {
+  margin: 30px 0;
+}
+.partners>img {
+  margin: 0 20px;
+  border-radius: 6px;
 }
 
 .btn {
@@ -523,6 +535,12 @@ h4 {
   margin-top: 8px;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #f3e0ea;
+  margin: 40px 0;
 }
 
 .personhead {

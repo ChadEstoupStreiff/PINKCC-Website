@@ -11,7 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/work.css" />
     <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/work.js" defer></script>
 </head>
 
 <body>
@@ -24,15 +26,18 @@
             <input id="nav-toggle" type="checkbox" aria-label="Open menu" />
             <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
             <nav class="nav">
-                <a href="#works">🚀 Works</a>
-                <a href="#publications">📚 Publications</a>
                 <a href="#team">👥 Team</a>
+                <a href="#works">🧪 Research</a>
+                <a href="https://www.notion.so/Publications-2a7b1f338a7f807b9e14d9d6095b4224?source=copy_link">📚
+                    Publications</a>
+                <a href="#events">🎉 Events</a>
                 <a href="#contact">💬 Contact</a>
-                <a href="https://www.notion.so/Careers-2a7859712af2803cbf34fe05d3b098b2?source=copy_link">💼 Careers</a>
+                <a href="https://www.notion.so/Careers-2a7b1f338a7f8043928ece398769c497?source=copy_link">💼 Careers</a>
             </nav>
         </div>
         <a class="banner centered" href="https://google.fr">
-            <h3 data-text="🎉 DATA CHALLENGE: Ovarian cancer data challenge from 07 september 2026 to 29 august 2026 🏆">
+            <h3
+                data-text="🎉 DATA CHALLENGE: Ovarian cancer data challenge from 07 september 2026 to 29 august 2026 🏆">
                 🎉 DATA CHALLENGE: Ovarian cancer data challenge from 07 september 2026 to 29 august 2026 🏆
             </h3>
         </a>
@@ -42,17 +47,16 @@
     <section class="hero" id="home" aria-label="Hero">
         <div class="hero-inner">
             <div class="hero-copy">
-                <p class="eyebrow">
+                <!-- <p class="eyebrow">
                     ✨ Bridging the gap between health and technology
-                </p>
+                </p> -->
                 <div class="inline">
                     <img src="assets/img/pinkcc_logo.png" alt="PINKCCLab Icon" style="max-height: 80px; width: auto" />
-                    <h1>PINKCC Lab</h1>
+                    <h1>Welcome to the PINKCC lab</h1>
                 </div>
                 <p class="sub">
-                    The PINKCC Lab is a multidisciplinary research group combining artificial intelligence,
-                    bioinformatics, and medical imaging to unravel cancer complexity and drive innovation in precision
-                    medicine.
+                    Precision Imaging as a New Key in Cancer Care (PINKCC): Advancing AI-driven imaging biomarkers for
+                    oncology.
                 </p>
                 <div class="hero-actions">
                     <a href="#works" class="btn primary">Explore our work 🚀</a>
@@ -60,139 +64,258 @@
                 </div>
             </div>
             <div class="hero-media">
-                <div>
-                    <img src="assets/img/pinkcc.png" alt="Abstract workspace with pink accents"
-                        style="max-height: 160px; width: auto" />
-                    <div class="centered inline">
-                        <img src="assets/img/ircm.png" alt="IRCM Logo" style="max-height: 80px; width: auto" />
-                        <img src="assets/img/icm.png" alt="ICM Logo" style="max-height: 80px; width: auto" />
-                        <img src="assets/img/inserm.png" alt="INSERM Logo" style="max-height: 80px; width: auto" />
+                <img src="assets/img/pinkcc.png" alt="Abstract workspace with pink accents"
+                    style="max-height: 160px; width: auto" />
+            </div>
+        </div>
+    </section>
+
+    <div class="partners centered inline">
+        <img src="assets/img/ircm.png" alt="IRCM Logo" style="max-height: 80px; width: auto" />
+        <img src="assets/img/icm.png" alt="ICM Logo" style="max-height: 80px; width: auto" />
+        <img src="assets/img/inserm.png" alt="INSERM Logo" style="max-height: 80px; width: auto" />
+        <img src="assets/img/umontpellier.png" alt="University of Montpellier Logo"
+            style="max-height: 80px; width: auto" />
+        <img src="assets/img/erc.png" alt="ERC Logo" style="max-height: 80px; width: auto" />
+    </div>
+
+    <!-- MARK: Works -->
+    <!-- MARK: Works -->
+    <section class="section" id="works" aria-labelledby="works-title">
+        <div class="container">
+            <h2 id="works-title">🧪 Research</h2>
+
+            <!-- Flat navigation bar -->
+            <div class="works-nav" role="tablist" aria-label="Work categories">
+                <button class="works-tab active" data-target="works-medicalimaging" role="tab" aria-selected="true">
+                    🩻 MEDICAL IMAGING
+                </button>
+                <button class="works-tab" data-target="works-radiomics" role="tab" aria-selected="false">
+                    📊 RADIOMICS
+                </button>
+                <button class="works-tab" data-target="works-virtualbiopsies" role="tab" aria-selected="false">
+                    🧬 VIRTUAL BIOPSIES
+                </button>
+                <button class="works-tab" data-target="works-pathomics" role="tab" aria-selected="false">
+                    🧫 PATHOMICS
+                </button>
+                <button class="works-tab" data-target="works-dataintegration" role="tab" aria-selected="false">
+                    🔗 DATA INTEGRATION
+                </button>
+            </div>
+
+            <hr />
+
+            <!-- Panels -->
+            <div class="works-panels">
+                <!-- medicalimaging -->
+                <div id="works-medicalimaging" class="works-panel active" role="tabpanel">
+                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar ullamcorper
+                        mi vel eleifend. Vestibulum nisi metus, ornare et dui et, lobortis rhoncus odio. Curabitur
+                        varius gravida tristique. Orci varius natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Pellentesque sollicitudin velit non lacus tempus, vitae maximus nunc
+                        pretium. Maecenas condimentum dolor ullamcorper neque lobortis, id accumsan odio laoreet.
+                        Integer ultricies laoreet lectus, et laoreet sapien sodales a.</p>
+
+                    <div class="centered">
+                        <img src="https://cdn.prod.website-files.com/6552758bed0bca440d439436/65e1123c2167dfa4c6484bb3_20240229T1124-351c6a2d-17f9-4230-a117-7f5ff6b9f5a7.png"
+                            alt="Medical Imaging Example" style="width:60%" />
                     </div>
-                    <div class="centered inline">
-                        <img src="assets/img/umontpellier.png" alt="University of Montpellier Logo"
-                            style="max-height: 80px; width: auto" />
-                        <img src="assets/img/erc.png" alt="ERC Logo" style="max-height: 80px; width: auto" />
+
+                    <p>Sed ut neque sem. Cras ut odio vel augue auctor auctor sed non tellus. Praesent lacus velit,
+                        semper sit amet faucibus ut, auctor imperdiet risus. Quisque iaculis cursus dui, id suscipit
+                        nisl ultricies nec. Cras dui nisl, efficitur eget nisl at, elementum fringilla mi. Aliquam a
+                        interdum ante. Sed a orci ex. Mauris pulvinar, ligula at convallis dignissim, nulla leo accumsan
+                        tellus, ultricies lacinia arcu odio in ex. Ut pulvinar nulla sit amet libero auctor, in vehicula
+                        eros auctor. Nulla pulvinar ex ligula, gravida ullamcorper erat rhoncus et. Fusce consequat
+                        placerat nibh tristique ullamcorper. Etiam quis consequat eros. Etiam tempor commodo ex quis
+                        dignissim. Praesent venenatis, sapien ac feugiat ornare, elit lorem rutrum quam, nec
+                        pellentesque neque nisl quis purus. Nullam consectetur, nisl sit amet fringilla efficitur, sem
+                        turpis molestie lorem, ut bibendum risus quam eget dui.</p>
+
+                    <p>Fusce cursus sagittis quam sed aliquet. Praesent neque nulla, ornare sagittis enim et,
+                        condimentum finibus purus. Sed volutpat vitae dolor id mollis. Aenean id bibendum ligula.
+                        Integer fermentum odio vitae ligula hendrerit aliquet. Integer bibendum dui vitae cursus
+                        feugiat. Phasellus fringilla felis a commodo cursus. Nunc libero diam, efficitur vel viverra
+                        non, auctor eget nulla. Proin viverra dapibus lacus in facilisis. Mauris condimentum blandit
+                        eleifend. Ut sit amet massa sit amet leo luctus fringilla pellentesque non dui. </p>
+                </div>
+
+                <!-- radiomics -->
+                <div id="works-radiomics" class="works-panel" role="tabpanel">
+                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar ullamcorper
+                        mi vel eleifend. Vestibulum nisi metus, ornare et dui et, lobortis rhoncus odio. Curabitur
+                        varius gravida tristique. Orci varius natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Pellentesque sollicitudin velit non lacus tempus, vitae maximus nunc
+                        pretium. Maecenas condimentum dolor ullamcorper neque lobortis, id accumsan odio laoreet.
+                        Integer ultricies laoreet lectus, et laoreet sapien sodales a.</p>
+
+                    <div class="centered">
+                        <img src="https://ebv2e3r5onu.exactdn.com/wp-content/uploads/2021/11/skeleton-bg-1024x614.jpg?strip=all&lossy=1&ssl=1"
+                            alt="Medical Imaging Example" style="width:60%" />
                     </div>
+                    <p>Sed ut neque sem. Cras ut odio vel augue auctor auctor sed non tellus. Praesent lacus velit,
+                        semper sit amet faucibus ut, auctor imperdiet risus. Quisque iaculis cursus dui, id suscipit
+                        nisl ultricies nec. Cras dui nisl, efficitur eget nisl at, elementum fringilla mi. Aliquam a
+                        interdum ante. Sed a orci ex. Mauris pulvinar, ligula at convallis dignissim, nulla leo accumsan
+                        tellus, ultricies lacinia arcu odio in ex. Ut pulvinar nulla sit amet libero auctor, in vehicula
+                        eros auctor. Nulla pulvinar ex ligula, gravida ullamcorper erat rhoncus et. Fusce consequat
+                        placerat nibh tristique ullamcorper. Etiam quis consequat eros. Etiam tempor commodo ex quis
+                        dignissim. Praesent venenatis, sapien ac feugiat ornare, elit lorem rutrum quam, nec
+                        pellentesque neque nisl quis purus. Nullam consectetur, nisl sit amet fringilla efficitur, sem
+                        turpis molestie lorem, ut bibendum risus quam eget dui.</p>
+
+                    <p>Fusce cursus sagittis quam sed aliquet. Praesent neque nulla, ornare sagittis enim et,
+                        condimentum finibus purus. Sed volutpat vitae dolor id mollis. Aenean id bibendum ligula.
+                        Integer fermentum odio vitae ligula hendrerit aliquet. Integer bibendum dui vitae cursus
+                        feugiat. Phasellus fringilla felis a commodo cursus. Nunc libero diam, efficitur vel viverra
+                        non, auctor eget nulla. Proin viverra dapibus lacus in facilisis. Mauris condimentum blandit
+                        eleifend. Ut sit amet massa sit amet leo luctus fringilla pellentesque non dui. </p>
+                </div>
+
+                <!-- virtualbiopsies -->
+                <div id="works-virtualbiopsies" class="works-panel" role="tabpanel">
+                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar ullamcorper
+                        mi vel eleifend. Vestibulum nisi metus, ornare et dui et, lobortis rhoncus odio. Curabitur
+                        varius gravida tristique. Orci varius natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Pellentesque sollicitudin velit non lacus tempus, vitae maximus nunc
+                        pretium. Maecenas condimentum dolor ullamcorper neque lobortis, id accumsan odio laoreet.
+                        Integer ultricies laoreet lectus, et laoreet sapien sodales a.</p>
+
+                    <div class="centered">
+                        <img src="https://admin.docteurimago.fr/app/uploads/sites/2/2023/01/biopsie-prostate-realite-augmentee.jpg"
+                            alt="Medical Imaging Example" style="width:60%" />
+                    </div>
+                    <p>Sed ut neque sem. Cras ut odio vel augue auctor auctor sed non tellus. Praesent lacus velit,
+                        semper sit amet faucibus ut, auctor imperdiet risus. Quisque iaculis cursus dui, id suscipit
+                        nisl ultricies nec. Cras dui nisl, efficitur eget nisl at, elementum fringilla mi. Aliquam a
+                        interdum ante. Sed a orci ex. Mauris pulvinar, ligula at convallis dignissim, nulla leo accumsan
+                        tellus, ultricies lacinia arcu odio in ex. Ut pulvinar nulla sit amet libero auctor, in vehicula
+                        eros auctor. Nulla pulvinar ex ligula, gravida ullamcorper erat rhoncus et. Fusce consequat
+                        placerat nibh tristique ullamcorper. Etiam quis consequat eros. Etiam tempor commodo ex quis
+                        dignissim. Praesent venenatis, sapien ac feugiat ornare, elit lorem rutrum quam, nec
+                        pellentesque neque nisl quis purus. Nullam consectetur, nisl sit amet fringilla efficitur, sem
+                        turpis molestie lorem, ut bibendum risus quam eget dui.</p>
+
+                    <p>Fusce cursus sagittis quam sed aliquet. Praesent neque nulla, ornare sagittis enim et,
+                        condimentum finibus purus. Sed volutpat vitae dolor id mollis. Aenean id bibendum ligula.
+                        Integer fermentum odio vitae ligula hendrerit aliquet. Integer bibendum dui vitae cursus
+                        feugiat. Phasellus fringilla felis a commodo cursus. Nunc libero diam, efficitur vel viverra
+                        non, auctor eget nulla. Proin viverra dapibus lacus in facilisis. Mauris condimentum blandit
+                        eleifend. Ut sit amet massa sit amet leo luctus fringilla pellentesque non dui. </p>
+                </div>
+
+                <!-- pathomics -->
+                <div id="works-pathomics" class="works-panel" role="tabpanel">
+                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar ullamcorper
+                        mi vel eleifend. Vestibulum nisi metus, ornare et dui et, lobortis rhoncus odio. Curabitur
+                        varius gravida tristique. Orci varius natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Pellentesque sollicitudin velit non lacus tempus, vitae maximus nunc
+                        pretium. Maecenas condimentum dolor ullamcorper neque lobortis, id accumsan odio laoreet.
+                        Integer ultricies laoreet lectus, et laoreet sapien sodales a.</p>
+
+                    <div class="centered">
+                        <img src="https://www.urologic.theclinics.com/cms/10.1016/j.ucl.2023.06.001/asset/04e564c8-f3f9-49a2-80c8-041ce7ecae05/main.assets/gr3_lrg.jpg"
+                            alt="Medical Imaging Example" style="width:60%" />
+                    </div>
+                    <p>Sed ut neque sem. Cras ut odio vel augue auctor auctor sed non tellus. Praesent lacus velit,
+                        semper sit amet faucibus ut, auctor imperdiet risus. Quisque iaculis cursus dui, id suscipit
+                        nisl ultricies nec. Cras dui nisl, efficitur eget nisl at, elementum fringilla mi. Aliquam a
+                        interdum ante. Sed a orci ex. Mauris pulvinar, ligula at convallis dignissim, nulla leo accumsan
+                        tellus, ultricies lacinia arcu odio in ex. Ut pulvinar nulla sit amet libero auctor, in vehicula
+                        eros auctor. Nulla pulvinar ex ligula, gravida ullamcorper erat rhoncus et. Fusce consequat
+                        placerat nibh tristique ullamcorper. Etiam quis consequat eros. Etiam tempor commodo ex quis
+                        dignissim. Praesent venenatis, sapien ac feugiat ornare, elit lorem rutrum quam, nec
+                        pellentesque neque nisl quis purus. Nullam consectetur, nisl sit amet fringilla efficitur, sem
+                        turpis molestie lorem, ut bibendum risus quam eget dui.</p>
+
+                    <p>Fusce cursus sagittis quam sed aliquet. Praesent neque nulla, ornare sagittis enim et,
+                        condimentum finibus purus. Sed volutpat vitae dolor id mollis. Aenean id bibendum ligula.
+                        Integer fermentum odio vitae ligula hendrerit aliquet. Integer bibendum dui vitae cursus
+                        feugiat. Phasellus fringilla felis a commodo cursus. Nunc libero diam, efficitur vel viverra
+                        non, auctor eget nulla. Proin viverra dapibus lacus in facilisis. Mauris condimentum blandit
+                        eleifend. Ut sit amet massa sit amet leo luctus fringilla pellentesque non dui. </p>
+                </div>
+
+                <!-- dataintegration -->
+                <div id="works-dataintegration" class="works-panel" role="tabpanel">
+                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar ullamcorper
+                        mi vel eleifend. Vestibulum nisi metus, ornare et dui et, lobortis rhoncus odio. Curabitur
+                        varius gravida tristique. Orci varius natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Pellentesque sollicitudin velit non lacus tempus, vitae maximus nunc
+                        pretium. Maecenas condimentum dolor ullamcorper neque lobortis, id accumsan odio laoreet.
+                        Integer ultricies laoreet lectus, et laoreet sapien sodales a.</p>
+
+                    <div class="centered">
+                        <img src="https://media.istockphoto.com/id/1448152453/fr/vectoriel/illustration-de-la-technologie-big-data-et-de-la-science-des-donn%C3%A9es-concept-de-flux-de.jpg?s=612x612&w=0&k=20&c=FMW86bWPLFolU-JQVmMLpYjKLaFCanNtuNTnf7Jnjlo="
+                            alt="Medical Imaging Example" style="width:60%" />
+                    </div>
+                    <p>Sed ut neque sem. Cras ut odio vel augue auctor auctor sed non tellus. Praesent lacus velit,
+                        semper sit amet faucibus ut, auctor imperdiet risus. Quisque iaculis cursus dui, id suscipit
+                        nisl ultricies nec. Cras dui nisl, efficitur eget nisl at, elementum fringilla mi. Aliquam a
+                        interdum ante. Sed a orci ex. Mauris pulvinar, ligula at convallis dignissim, nulla leo accumsan
+                        tellus, ultricies lacinia arcu odio in ex. Ut pulvinar nulla sit amet libero auctor, in vehicula
+                        eros auctor. Nulla pulvinar ex ligula, gravida ullamcorper erat rhoncus et. Fusce consequat
+                        placerat nibh tristique ullamcorper. Etiam quis consequat eros. Etiam tempor commodo ex quis
+                        dignissim. Praesent venenatis, sapien ac feugiat ornare, elit lorem rutrum quam, nec
+                        pellentesque neque nisl quis purus. Nullam consectetur, nisl sit amet fringilla efficitur, sem
+                        turpis molestie lorem, ut bibendum risus quam eget dui.</p>
+
+                    <p>Fusce cursus sagittis quam sed aliquet. Praesent neque nulla, ornare sagittis enim et,
+                        condimentum finibus purus. Sed volutpat vitae dolor id mollis. Aenean id bibendum ligula.
+                        Integer fermentum odio vitae ligula hendrerit aliquet. Integer bibendum dui vitae cursus
+                        feugiat. Phasellus fringilla felis a commodo cursus. Nunc libero diam, efficitur vel viverra
+                        non, auctor eget nulla. Proin viverra dapibus lacus in facilisis. Mauris condimentum blandit
+                        eleifend. Ut sit amet massa sit amet leo luctus fringilla pellentesque non dui. </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- MARK: Works -->
-    <section class="section" id="works" aria-labelledby="works-title">
+    <!-- MARK: Events -->
+    <section class="section alt" id="events" aria-labelledby="events-title">
         <div class="container">
-            <h2 id="works-title">🚀 TODO Our Works</h2>
+            <h2 id="events-title">🎉 Events</h2>
             <p class="section-lead">
-                Explore our ongoing projects, from experimental studies to computational developments, showcasing how we
-                combine data science and biology to address key challenges in health and ecology.
+                Discover our latest events. From conferences and workshops to seminars and hackathons, stay updated on
+                all upcoming activities.
             </p>
-            <div class="grid cards">
-                <!-- PROJECT A -->
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
-                        alt="Data visualization on pink background" />
-                    <div class="card-body">
-                        <h3>Project A</h3>
+            <div class="inline">
+                <ol class="pub-list">
+                    <li>
+                        <h3>Data Challenge 2026</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus vehicula sapien.
+                            <strong>Authors:</strong> Lorem Ipsum, Dolor Sit, Amet Consectetur
+                            (2026)
                         </p>
-                        <div class="centered">
-                            <button class="btn primary open-modal" data-target="#proj-a">
-                                View project →
-                            </button>
-                        </div>
-                    </div>
-                </article>
-                <!-- PROJECT B -->
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
-                        alt="Data visualization on pink background" />
-                    <div class="card-body">
-                        <h3>Project B</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus vehicula sapien.
-                        </p>
-                        <div class="centered">
-                            <button class="btn primary open-modal" data-target="#proj-b">
-                                View project →
-                            </button>
-                        </div>
-                    </div>
-                </article>
-                <!-- PROJECT C -->
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
-                        alt="Data visualization on pink background" />
-                    <div class="card-body">
-                        <h3>Project C</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus vehicula sapien.
-                        </p>
-                        <div class="centered">
-                            <button class="btn primary open-modal" data-target="#proj-c">
-                                View project →
-                            </button>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
+                        <p class="muted">
 
-    <!-- MARK: Publications -->
-    <section class="section alt" id="publications" aria-labelledby="pubs-title">
-        <div class="container">
-            <h2 id="pubs-title">📚 Publications</h2>
-            <p class="section-lead">
-                Discover our latest scientific contributions, where we share advances in genomics, bioinformatics, and
-                AI-driven biomedical research through peer-reviewed articles and conference papers.
-            </p>
-            <div class="centered">
-                <a href="https://www.linkedin.com/in/stephanie-nougaret-a03831216/">
-                    <button class="btn primary">🗞️ News on Linkedin</button>
-                </a>
+                        </p>
+                        <a href="#" class="link">Read more →</a>
+                    </li>
+                    <li>
+                        <h3>Data Challenge 2025</h3>
+                        <p>
+                            <strong>Authors:</strong> Lorem Ipsum, Dolor Sit, Amet Consectetur
+                            (2025)
+                        </p>
+                        <p class="muted">
+                            Play to win prizes and recognition by participating in our 2025 Data Challenge! Tackle
+                            real-world problems using cutting-edge datasets and innovative techniques. Whether you're a
+                            seasoned data scientist or a curious beginner, this challenge offers an exciting opportunity
+                            to
+                            showcase your skills, collaborate with peers, and contribute to impactful solutions. Don't
+                            miss
+                            out on the chance to make a difference and elevate your data science journey!
+                        </p>
+                        <div class="centered">
+                            <img src="assets/img/events/pinkcc2025.png" alt="Data Challenge 2025 Banner"
+                                style="width:600px; height:auto; border-radius:10px; margin-bottom:20px;" />
+                        </div>
+                        <a href="#" class="link">Read more →</a>
+                    </li>
+                </ol>
             </div>
-            <div class="centered">
-                <a href="https://docs.google.com/document/d/1es-T05dMMYmndVhWiG09-6YNf94RnKdrNAe1NGQ4GnQ/edit?tab=t.0">
-                    <button class="btn primary">📄 Full Publication List</button>
-                </a>
-            </div>
-            <h3>Main papers</h3>
-            <ol class="pub-list">
-                <li>
-                    <h3>Title of the Paper One</h3>
-                    <p>
-                        <strong>Authors:</strong> Lorem Ipsum, Dolor Sit, Amet Consectetur
-                        (2025)
-                    </p>
-                    <p class="muted">
-                        Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Integer posuere erat a ante.
-                    </p>
-                    <a href="#" class="link">Read more →</a>
-                </li>
-                <li>
-                    <h3>Title of the Paper Two</h3>
-                    <p><strong>Authors:</strong> Adipiscing Elit, Sed Do (2024)</p>
-                    <p class="muted">
-                        Abstract: Cras mattis consectetur purus sit amet fermentum.
-                        Integer posuere erat a ante.
-                    </p>
-                    <a href="#" class="link">Read more →</a>
-                </li>
-                <li>
-                    <h3>Title of the Paper Three</h3>
-                    <p><strong>Authors:</strong> Eiusmod Tempor, Incididunt (2023)</p>
-                    <p class="muted">
-                        Abstract: Aenean lacinia bibendum nulla sed consectetur.
-                        Vestibulum id ligula porta felis.
-                    </p>
-                    <a href="#" class="link">Read more →</a>
-                </li>
-            </ol>
         </div>
     </section>
 
@@ -208,7 +331,7 @@
             <h3>Scientists</h3>
             <div class="grid team">
                 <article class="person">
-                    <img src="assets/img/stephanie/troll.png" alt="Portrait of Stéphanie Nougaret" />
+                    <img src="assets/img/team/stephanie/troll.png" alt="Portrait of Stéphanie Nougaret" />
                     <h3>Stéphanie Nougaret</h3>
                     <p class="role">Radiology Professor<br />Head, PINKcc Lab</p>
                     <button class="btn primary open-modal" data-target="#person-stephanie">
@@ -216,7 +339,7 @@
                     </button>
                 </article>
                 <article class="person">
-                    <img src="assets/img/margaux/head.jpg" alt="Portrait of Margaux Verdier" />
+                    <img src="assets/img/team/margaux/head.jpg" alt="Portrait of Margaux Verdier" />
                     <h3>Margaux Verdier</h3>
                     <p class="role">TODO</p>
                     <button class="btn primary open-modal" data-target="#person-margaux">
@@ -224,7 +347,7 @@
                     </button>
                 </article>
                 <article class="person">
-                    <img src="assets/img/marion/head.png" alt="Portrait of Marion Tardieu" />
+                    <img src="assets/img/team/marion/head.png" alt="Portrait of Marion Tardieu" />
                     <h3>Marion Tardieu</h3>
                     <p class="role">TODO</p>
                     <button class="btn primary open-modal" data-target="#person-marion">
@@ -232,7 +355,7 @@
                     </button>
                 </article>
                 <article class="person">
-                    <img src="assets/img/jean-philipe/head.jpg" alt="Portrait of Jean-Philippe Villemin" />
+                    <img src="assets/img/team/jean-philipe/head.jpg" alt="Portrait of Jean-Philippe Villemin" />
                     <h3>Jean-Philippe Villemin</h3>
                     <p class="role">Postdoctoral</p>
                     <button class="btn primary open-modal" data-target="#person-jean-philippe">
@@ -243,7 +366,7 @@
             <h3>Clinicians</h3>
             <div class="grid team">
                 <article class="person">
-                    <img src="assets/img/gaelle/head.png" alt="Portrait of Gaelle Boustany" />
+                    <img src="assets/img/team/gaelle/head.png" alt="Portrait of Gaelle Boustany" />
                     <h3>Gaelle Boustany</h3>
                     <p class="role">PH, ICM</p>
                     <div class="centered">
@@ -253,7 +376,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/ana/head.png" alt="Portrait of Ana Rusnac" />
+                    <img src="assets/img/team/ana/head.png" alt="Portrait of Ana Rusnac" />
                     <h3>Ana Rusnac</h3>
                     <p class="role">Research Fellow, Romania</p>
                     <div class="centered">
@@ -263,7 +386,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/laura/head.jpeg" alt="Portrait of Laura Haddad" />
+                    <img src="assets/img/team/laura/head.jpeg" alt="Portrait of Laura Haddad" />
                     <h3>Laura Haddad</h3>
                     <p class="role">Research Fellow, Lebanon</p>
                     <div class="centered">
@@ -273,7 +396,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/unkown.png" alt="Portrait of Veronica Celli" />
+                    <img src="assets/img/team/unkown.png" alt="Portrait of Veronica Celli" />
                     <h3>Veronica Celli</h3>
                     <p class="role">Research Fellow, Italy</p>
                     <div class="centered">
@@ -283,7 +406,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/raphael/head.png" alt="Portrait of Raphael Tetreau" />
+                    <img src="assets/img/team/raphael/head.png" alt="Portrait of Raphael Tetreau" />
                     <h3>Raphael Tetreau</h3>
                     <p class="role">PH, ICM</p>
                     <div class="centered">
@@ -297,7 +420,7 @@
             <div class="grid team">
 
                 <article class="person">
-                    <img src="assets/img/gladis/head.jpg" alt="Portrait of Gladis Valenzuela" />
+                    <img src="assets/img/team/gladis/head.jpg" alt="Portrait of Gladis Valenzuela" />
                     <h3>Gladis Valenzuela</h3>
                     <p class="role">AI Engineer</p>
                     <div class="centered">
@@ -307,7 +430,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/fadel/head.jpeg" alt="Portrait of Fadel Kpegouni" />
+                    <img src="assets/img/team/fadel/head.jpeg" alt="Portrait of Fadel Kpegouni" />
                     <h3>Fadel Kpegouni</h3>
                     <p class="role">AI Engineer</p>
                     <div class="centered">
@@ -320,7 +443,7 @@
             <h3>Students</h3>
             <div class="grid team">
                 <article class="person">
-                    <img src="assets/img/lin/head.jpg" alt="Portrait of Lin Zijing" />
+                    <img src="assets/img/team/lin/head.jpg" alt="Portrait of Lin Zijing" />
                     <h3>Lin Zijing</h3>
                     <p class="role">PhD student</p>
                     <div class="centered">
@@ -330,7 +453,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/charles/head.jpg" alt="Portrait of team member" />
+                    <img src="assets/img/team/charles/head.jpg" alt="Portrait of team member" />
                     <h3>Charles Berger</h3>
                     <p class="role">PhD student</p>
                     <div class="centered">
@@ -340,7 +463,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/florent/head.png" alt="Portrait of Florent Tachenne" />
+                    <img src="assets/img/team/florent/head.png" alt="Portrait of Florent Tachenne" />
                     <h3>Florent Tachenne</h3>
                     <p class="role">PhD student</p>
                     <div class="centered">
@@ -350,7 +473,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/chad/head.png" alt="Portrait of Chad Estoup--Streiff" />
+                    <img src="assets/img/team/chad/head.png" alt="Portrait of Chad Estoup--Streiff" />
                     <h3>Chad Estoup--Streiff</h3>
                     <p class="role">PhD student</p>
                     <div class="centered">
@@ -469,7 +592,7 @@ POST /api/train
         <div class="modal-dialog">
             <button class="modal-close" aria-label="Close">✕</button>
             <div class="modal-content" style="grid-column: 1/-1">
-                <div class="centered"><img src="assets/img/jean-philipe/head.jpg" alt="Jean-Philippe Villemin"
+                <div class="centered"><img src="assets/img/team/jean-philipe/head.jpg" alt="Jean-Philippe Villemin"
                         class="personhead" /></div>
                 <h3>Jean-Philippe Villemin</h3>
                 <p class="muted">
@@ -486,7 +609,7 @@ POST /api/train
                 </p>
 
                 <div class="centered">
-                    <img src="assets/img/jean-philipe/image.png" alt="Jean-Philippe Villemin"
+                    <img src="assets/img/team/jean-philipe/image.png" alt="Jean-Philippe Villemin"
                         style="width:700px; height:auto; border-radius:10px; margin-bottom:20px;" />
                 </div>
 
@@ -546,7 +669,8 @@ POST /api/train
         <div class="modal-dialog">
             <button class="modal-close" aria-label="Close">✕</button>
             <div class="modal-content" style="grid-column: 1/-1">
-                <div class="centered"><img src="assets/img/charles/head.jpg" alt="Charles Berger" class="personhead" />
+                <div class="centered"><img src="assets/img/team/charles/head.jpg" alt="Charles Berger"
+                        class="personhead" />
                 </div>
                 <h3>Charles Berger</h3>
                 <p class="muted">
@@ -629,7 +753,7 @@ POST /api/train
                     treatment personalization and patient outcomes, representing a major step forward</li>
 
                 <div class="centered">
-                    <img src="assets/img/charles/image.png" alt="OCAS project illustration"
+                    <img src="assets/img/team/charles/image.png" alt="OCAS project illustration"
                         style="width:700px; height:auto; border-radius:10px; margin-bottom:20px;" />
                 </div>
             </div>
@@ -640,7 +764,7 @@ POST /api/train
         <div class="modal-dialog">
             <button class="modal-close" aria-label="Close">✕</button>
             <div class="modal-content" style="grid-column: 1/-1">
-                <div class="centered"><img src="assets/img/chad/head.png" alt="Chad Estoup--Streiff"
+                <div class="centered"><img src="assets/img/team/chad/head.png" alt="Chad Estoup--Streiff"
                         class="personhead" />
                 </div>
 
@@ -656,7 +780,7 @@ POST /api/train
                 </p>
 
                 <div class="centered">
-                    <img src="assets/img/chad/bbx.png" alt="Deep learning box prediction illustration"
+                    <img src="assets/img/team/chad/bbx.png" alt="Deep learning box prediction illustration"
                         style="width:500px; height:auto; border-radius:10px; margin-bottom:20px;" />
                 </div>
 
@@ -689,7 +813,7 @@ POST /api/train
         <div class="modal-dialog">
             <button class="modal-close" aria-label="Close">✕</button>
             <div class="modal-content" style="grid-column: 1/-1">
-                <div class="centered"><img src="assets/img/florent/head.png" alt="Florent Tachenne"
+                <div class="centered"><img src="assets/img/team/florent/head.png" alt="Florent Tachenne"
                         class="personhead" />
                 </div>
                 <h3>Florent Tachenne</h3>
@@ -713,7 +837,7 @@ POST /api/train
                     uncertainty-based deep learning methods to enhance pancreatic cancer segmentation and improve
                     follow-up accuracy.</p>
                 <div class="inline">
-                    <img src="assets/img/florent/image.png" alt="Work Pipeline"
+                    <img src="assets/img/team/florent/image.png" alt="Work Pipeline"
                         style="width:100%; height:auto; border-radius:10px; margin-bottom:20px;" />
                 </div>
             </div>
@@ -726,7 +850,7 @@ POST /api/train
                 <button class="modal-close" aria-label="Close">✕</button>
                 <div class="modal-content" style="grid-column: 1/-1">
                     <div class="centered">
-                        <img src="assets/img/stephanie/head.png" alt="Stéphanie Nougaret" class="personhead" />
+                        <img src="assets/img/team/stephanie/head.png" alt="Stéphanie Nougaret" class="personhead" />
                     </div>
 
                     <h3>Stéphanie Nougaret</h3>
@@ -771,12 +895,11 @@ POST /api/train
                 <button class="modal-close" aria-label="Close">✕</button>
                 <div class="modal-content" style="grid-column: 1/-1">
                     <div class="centered">
-                        <img src="assets/img/gladis/head.jpg" alt="Gladis Valenzuela" class="personhead" />
+                        <img src="assets/img/team/gladis/head.jpg" alt="Gladis Valenzuela" class="personhead" />
                     </div>
 
                     <h3>Gladis Valenzuela</h3>
                     <p class="muted">AI Engineer & PhD Student in Medical Imaging</p>
-
 
                     <h4>Who I am </h4>
                     <p>After several years as a radiographer, I decided to retrain myself in 2020 in the field of Data
