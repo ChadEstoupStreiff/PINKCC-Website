@@ -17,7 +17,7 @@
 <body>
     <!-- Header / Navbar -->
     <header class="site-header">
-        <div >
+        <div>
             <a href="#" class="brand">
                 <img src="assets/img/pinkcc_banner.png" alt="PINKCCLab Logo" class="logo" />
             </a>
@@ -150,11 +150,17 @@
                 Discover our latest scientific contributions, where we share advances in genomics, bioinformatics, and
                 AI-driven biomedical research through peer-reviewed articles and conference papers.
             </p>
-            <div class="centered">    
+            <div class="centered">
                 <a href="https://www.linkedin.com/in/stephanie-nougaret-a03831216/">
                     <button class="btn primary">🗞️ News on Linkedin</button>
                 </a>
             </div>
+            <div class="centered">
+                <a href="https://docs.google.com/document/d/1es-T05dMMYmndVhWiG09-6YNf94RnKdrNAe1NGQ4GnQ/edit?tab=t.0">
+                    <button class="btn primary">📄 Full Publication List</button>
+                </a>
+            </div>
+            <h3>Main papers</h3>
             <ol class="pub-list">
                 <li>
                     <h3>Title of the Paper One</h3>
@@ -257,7 +263,7 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/unkown.png" alt="Portrait of Laura Haddad" />
+                    <img src="assets/img/laura/head.jpeg" alt="Portrait of Laura Haddad" />
                     <h3>Laura Haddad</h3>
                     <p class="role">Research Fellow, Lebanon</p>
                     <div class="centered">
@@ -301,9 +307,9 @@
                     </div>
                 </article>
                 <article class="person">
-                    <img src="assets/img/fadel/head.jpg" alt="Portrait of Fadel Kapegouni" />
-                    <h3>Fadel Kapegouni</h3>
-                    <p class="role">TODO</p>
+                    <img src="assets/img/fadel/head.jpeg" alt="Portrait of Fadel Kpegouni" />
+                    <h3>Fadel Kpegouni</h3>
+                    <p class="role">Engineer</p>
                     <div class="centered">
                         <button class="btn primary open-modal" data-target="#person-fadel">
                             View more →
@@ -503,6 +509,34 @@ POST /api/train
                     strategies to build and interpret this spatial atlas, including methods to annotate spatial
                     transcriptomic data, to decipher intra- and inter-tumoral heterogeneity, and to address the
                     computational challenges posed by the scale and complexity of these high-dimensional datasets.</p>
+                <h4>Publications</h4>
+                <li>Addressing multiple facets of ligand-receptor network inference including single-cell proteomics.
+                    Villemin JP, Pierre Giroux, Morgan Maillard, Pierre-Emmanuel Colombo, Christel Larbouret, Jacques
+                    Colinge. Nucleic Acid Research (2025) - Under Review. https://doi.org/10.1101/2025.10.05.680519</li>
+                <li>Differential predictive value of resident memory CD8+T cell subpopulations in non-small-cell lung
+                    cancer patients treated by immunotherapy. Léa Paolini,Thi Tran,Stéphanie Corgnac, Villemin JP,
+                    …,Eric Tartour. Journal of Immunotherapy of Cancer (2024)</li>
+                <li>Farnesyltransferase inhibition overcomes oncogene-addicted non-small cell lung cancer adaptive
+                    resistance to targeted therapies. Sarah Figarol, Célia Delahaye, Rémi Gence, Aurélia Doussine, Juan
+                    Pablo Cerapio, Mathylda Brachais, Claudine Tardy, Nicolas Béry, Raghda Asslan, Jacques Colinge,
+                    Jean-Philippe Villemin, Antonio Maraver, Irene Ferrer, Luis Paz-Ares, Linda Kessler, Francis
+                    Burrows, Isabelle Lajoie-Mazenc, Vincent Dongay, Clara Morin, Amélie Florent, Sandra Pagano, Estelle
+                    Taranchon-Clermont, Anne Casanova, Anne Pradines, Julien Mazieres, Gilles Favre & Olivier Calvayrac.
+                    Nat Commun (2024)</li>
+                <li>Inferring ligand-receptor cellular networks from bulk and spatial transcriptomic datasets with
+                    BulkSignalR. Villemin JP, Laia Bassaganyas, Didier Pourquier, Florence Boissiere, Simon
+                    Cabello-Aguilar, Evelyne Crapez, Rita Tanos, Emmanuel Cornillot, Andrei Turtoi, Jacques Colinge.
+                    Nucleic Acid Research (2023). </li>
+
+                <li>A cell-to-patient machine learning transfer approach uncovers novel basal-like breast cancer
+                    prognostic markers amongst alternative splice variants. </li>
+                <li>Villemin JP., Lorenzi, C., Cabrillac, MS. et al. </li>
+                <li>BMC Biology (2021). https://doi.org/10.1186/s12915-021-01002-7</li>
+
+                <li>Endothelial, epithelial, and fibroblast cells exhibit specific splicing programs independently of
+                    their tissue of origin. JP Villemin*, Mallinjoud P*, Mortada H*, Polay Espinoza M, Desmet FO, Samaan
+                    S, Chautard E, Tranchevent LC, Auboeuf D.</li>
+                <li>Genome Res. 2014 doi: 10.1101/gr.162933.113.</li>
 
             </div>
         </div>
@@ -612,7 +646,7 @@ POST /api/train
 
                 <h3>Chad Estoup--Streiff</h3>
                 <p class="muted">AI Engineer & PhD Student in Medical Imaging</p>
-                
+
                 <h4>Who I Am</h4>
                 <p>
                     I’m an AI and software engineer developing machine learning systems for medical imaging and
@@ -726,7 +760,43 @@ POST /api/train
             </div>
         </div>
     </div>
+    <!-- MARK: GLADIS -->
+    <div>
+        <div class="modal" id="person-gladis" aria-hidden="true" role="dialog" aria-modal="true">
+            <div class="modal-dialog">
+                <button class="modal-close" aria-label="Close">✕</button>
+                <div class="modal-content" style="grid-column: 1/-1">
+                    <div class="centered">
+                        <img src="assets/img/gladis/head.jpg" alt="Gladis Valenzuela" class="personhead" />
+                    </div>
 
+                    <h3>Gladis Valenzuela</h3>
+                    <p class="muted">AI Engineer & PhD Student in Medical Imaging</p>
+
+
+                    <h4>Who I am </h4>
+                    <p>After several years as a radiographer, I decided to retrain myself in 2020 in the field of Data
+                        Science, specifically as applied to Medical Imaging. Today, I now apply my clinical and
+                        scientific expertise to Oncology Research. I am particularly interested in data structuring and
+                        interoperability between clinical and radiological data to design tools that are useful to
+                        healthcare professionals. Otherwise, I’m passionate about latin dance and I also enjoy just
+                        about every sport. </p>
+
+                    <h4>My work in the lab = IAM THE BEST ❤️</h4>
+                    <p>I design and maintain medical imaging data pipelines, from DICOM/NIfTI structuring to radiomic
+                        analysis. I work on the unification and visualization of clinical and imaging data to make
+                        research results more accessible, reliable, and actionable for clinicians.</p>
+
+                    <h4>Main Project</h4>
+                    <p>The Rectum project aims to unify MRI and clinical follow-up data. The core of the project is
+                        based on the automatic segmentation of the tumor and certain structures of interest in order to
+                        generate standardized quantitative reports designed to assist surgeons in treatment planning and
+                        follow-up. The data is structured in an interoperable database that facilitates radiomic
+                        analysis and translational research.</p>
+
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

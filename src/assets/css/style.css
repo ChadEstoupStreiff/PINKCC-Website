@@ -496,7 +496,7 @@ h4 {
         flex-direction: column;
     }
 
-    p {
+    p, li {
         font-size: 0.8rem;
     }
 }
