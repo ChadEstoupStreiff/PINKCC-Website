@@ -195,7 +195,7 @@ a:hover {
 
   .site-header .banner h3::after {
     content: attr(data-text);
-    padding-left: 2rem; /* space between repeats */
+    padding-left: 5rem; /* space between repeats */
   }
 
   @keyframes scroll-loop {
