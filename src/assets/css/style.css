@@ -240,15 +240,12 @@ a:hover {
   line-height: 1.12;
   margin: 0.2em 0;
   color: white;
+  text-align: left;
+
 }
 .sub {
   color: rgb(226, 226, 226);
   max-width: 60ch;
-}
-.hero-actions {
-  display: flex;
-  gap: 12px;
-  margin: 18px 0 8px;
 }
 .hero-stats {
   display: flex;
@@ -273,6 +270,7 @@ a:hover {
 }
 
 .btn {
+  text-align: center;
   display: inline-block;
   padding: 12px 16px;
   border-radius: 12px;
@@ -302,7 +300,7 @@ a:hover {
   padding: 70px 20px;
   background: var(--alt);
 }
-.section.alt {
+.section:nth-child(odd) {
   background: none;
 }
 .container {
@@ -322,9 +320,6 @@ a:hover {
   grid-template-columns: repeat(3, 1fr);
 }
 @media (max-width: 960px) {
-  .hero {
-    margin-top: 100px;
-  }
   .grid.cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -525,6 +520,7 @@ body.modal-open {
 
 .inline {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   gap: 8px;
@@ -552,12 +548,12 @@ hr {
     width: 80%;
   }
 
-  .inline {
-    flex-direction: column;
-  }
-
   p,
   li {
     font-size: 0.8rem;
   }
+}
+
+.hero-stats {
+  justify-content: space-around;
 }
