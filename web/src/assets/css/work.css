@@ -56,3 +56,23 @@
     text-align: center;
   }
 }
+
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0a66c2;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.linkedin-btn:hover {
+  background-color: #004182;
+}
+.linkedin-btn svg {
+  margin-right: 8px;
+}

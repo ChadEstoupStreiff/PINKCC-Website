@@ -525,6 +525,10 @@ body.modal-open {
   gap: 8px;
 }
 
+.top, .start {
+  align-items: flex-start;
+}
+
 h4 {
   display: block;
   margin-top: 8px;
