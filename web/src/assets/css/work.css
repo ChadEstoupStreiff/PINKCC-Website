@@ -39,7 +39,6 @@
 
 .works-panel {
   display: none;
-  gap: 1.5rem;
 }
 
 .works-panel.active {
