@@ -15,9 +15,7 @@
   background: #fdf5fb;
   padding: 0.4rem 0.9rem;
   border-radius: 999px;
-  font-size: 0.9rem;
   cursor: pointer;
-  font-weight: 500;
   transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
 }
 
