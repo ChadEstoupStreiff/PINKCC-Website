@@ -526,6 +526,9 @@ body.modal-open {
   align-items: center;
   gap: 8px;
 }
+.no-wrap {
+  flex-wrap: nowrap;
+}
 
 .top, .start {
   align-items: flex-start;
