@@ -426,6 +426,7 @@ a:hover {
 .person h3 {
   font-size: 0.9rem;
   margin: 10px 0 4px;
+  text-align: center;
 }
 .person p {
   font-size: 0.8rem;

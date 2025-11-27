@@ -436,7 +436,7 @@
             <h3>Scientists</h3>
             <div class="grid team">
                 <article class="person">
-                    <img src="assets/img/team/stephanie/head.png" alt="Portrait of Stéphanie Nougaret" />
+                    <img src="assets/img/team/stephanie/head.jpg" alt="Portrait of Stéphanie Nougaret" />
                     <h3>Stéphanie Nougaret</h3>
                     <p class="role">Radiology Professor<br />Head, PINKcc Lab</p>
                     <button class="btn primary open-modal" data-target="#person-stephanie">
@@ -456,6 +456,14 @@
                     <h3>Margaux Verdier</h3>
                     <p class="role">Postdoctoral</p>
                     <button class="btn primary open-modal" data-target="#person-margaux">
+                        View more →
+                    </button>
+                </article>
+                <article class="person">
+                    <img src="assets/img/team/pierre/head.jpg" alt="Portrait of Pierre-Emmanuel Colombo" />
+                    <h3>Pierre-Emmanuel Colombo</h3>
+                    <p class="role">MD-PhD</p>
+                    <button class="btn primary open-modal" data-target="#person-pierre">
                         View more →
                     </button>
                 </article>
@@ -955,7 +963,7 @@ POST /api/train
                 <button class="modal-close" aria-label="Close">✕</button>
                 <div class="modal-content" style="grid-column: 1/-1">
                     <div class="centered">
-                        <img src="assets/img/team/stephanie/head.png" alt="Stéphanie Nougaret" class="personhead" />
+                        <img src="assets/img/team/stephanie/head.jpg" alt="Stéphanie Nougaret" class="personhead" />
                     </div>
 
                     <h3>Stéphanie Nougaret</h3>
@@ -963,32 +971,35 @@ POST /api/train
 
                     <h4>Who I Am</h4>
                     <p>
-                        Physician–scientist and radiologist specializing in oncologic MRI, with international training
-                        (incl. MSKCC, USA), leading translational imaging research to improve the care of gynecologic
-                        and abdominal cancers.
+                        Prof. Stéphanie Nougaret is a radiologist and physician-scientist internationally recognized for
+                        her work in advanced oncologic imaging and artificial intelligence. She leads the PINKCC lab
+                        where her team develops and validates novel imaging biomarkers to improve cancer diagnosis,
+                        staging, and treatment response evaluation. After completing her medical training and PhD in
+                        France, Prof. Nougaret pursued advanced clinical and research fellowships in Canada and the
+                        United States (Mc Gill university and Memorial Sloan Kettering Cancer Center (New York)), where
+                        she specialized in pelvic and oncologic MRI. She recently spent a year in Boston as a
+                        visitngassociate professor at Harvard Medical School where she did a master in Data Science at
+                        MIT.
                     </p>
-
-                    <h4>Research</h4>
+                    <h4>Research Focus</h4>
                     <p>
-                        My work develops and validates advanced MRI biomarkers and AI methods to enable “virtual
-                        biopsies” in high-grade serous ovarian carcinoma and related tumors—quantifying heterogeneity,
-                        predicting treatment response, and guiding precision therapies.
+                        Her research focuses on AI-driven MRI and CT analysis, radiomics, and digital twins in
+                        gynecologic, rectal, and pancreatic cancers, aiming to bridge imaging, pathology, and molecular
+                        data for precision oncology.
                     </p>
-
-                    <h4>Leadership</h4>
+                    <h4>Achievements & Impact</h4>
                     <p>
-                        I direct the <strong>PINKcc Lab</strong> (Precision Imaging as a New Key in Cancer Care), a
-                        multidisciplinary group bridging radiology, bioinformatics, and machine learning to translate
-                        robust imaging pipelines into clinical practice.
+                        Prof. Nougaret is a European Research Council (ERC) grantee for the MR-OMICS project and
+                        Principal Investigator of multiple national and industrial collaborations. She has authored over
+                        150 peer-reviewed publications and serves in leadership roles within major radiological
+                        societies.
                     </p>
-
-                    <h4>Selected Highlights</h4>
-                    <ul>
-                        <li>European-funded program leadership in precision imaging for ovarian cancer.</li>
-                        <li>Clinically oriented AI pipelines (radiomics, deep learning, explainability,
-                            standardization).</li>
-                        <li>Active collaborations across radiology, pathology, genomics, and industry partners.</li>
-                    </ul>
+                    <h4>Vision</h4>
+                    <p>
+                        Driven by a vision to make imaging central to personalized cancer care, she is building
+                        multidisciplinary bridges between radiology, data science, and oncology to translate innovation
+                        into real clinical impact.
+                    </p>
                 </div>
             </div>
         </div>
@@ -1507,8 +1518,14 @@ POST /api/train
                 </div>
                 <h3>Gaelle Boustany</h3>
                 <p class="muted">PH, ICM</p>
-                <h4>Who I Am</h4>
-                <p>TODO</p>
+                <p>
+                    Dr. Gaëlle Boustany is a radiologist at the Montpellier Cancer Center, specializing in genitourinary
+                    imaging with a particular focus on prostate cancer. Trained in general oncologic radiology, she
+                    contributes to multidisciplinary care across the department while advancing imaging-based assessment
+                    of prostate disease, including staging, treatment response, and post-therapy surveillance. Her
+                    clinical expertise supports the integration of advanced MRI protocols and structured reporting to
+                    improve diagnostic precision and patient outcomes.
+                </p>
             </div>
         </div>
     </div>
@@ -1522,8 +1539,14 @@ POST /api/train
                 </div>
                 <h3>Ana Rusnac</h3>
                 <p class="muted">Research Fellow, Romania</p>
-                <h4>Who I Am</h4>
-                <p>TODO</p>
+                <p>
+                    Dr. Ana Rusnac is a radiologist with a dedicated interest in gynecologic cancer imaging, especially
+                    ovarian and uterine malignancies. She combines clinical practice with two protected research days
+                    per week within the PINKCC Lab, where she plays a key role in clinical data curation and ovarian
+                    cancer segmentation for multi-omics and AI-driven projects. Her work supports large-scale
+                    radiogenomic studies aimed at refining disease characterization and improving patient
+                    stratification.
+                </p>
             </div>
         </div>
     </div>
@@ -1537,8 +1560,13 @@ POST /api/train
                 </div>
                 <h3>Laura Haddad</h3>
                 <p class="muted">Research Fellow, Lebanon</p>
-                <h4>Who I Am</h4>
-                <p>TODO</p>
+                <p>
+                    Dr. Laura Haddad is a radiologist at the Montpellier Cancer Center with a strong involvement in
+                    gynecologic oncologic imaging. Alongside her clinical activity, she devotes two days per week to
+                    research within the PINKCC Lab, contributing to clinical dataset assembly and advanced ovarian
+                    segmentation for precision-medicine initiatives. Her participation in multi-institutional projects
+                    helps bridge routine imaging with emerging biomarkers to support individualized treatment planning.
+                </p>
             </div>
         </div>
     </div>
@@ -1552,8 +1580,40 @@ POST /api/train
                 </div>
                 <h3>Raphael Tetreau</h3>
                 <p class="muted">PH, ICM</p>
-                <h4>Who I Am</h4>
-                <p>TODO</p>
+                <p>
+                    Dr. Raphaël Tétreau is the Head of the Radiology Department at the Montpellier Cancer Center,
+                    specializing in musculoskeletal oncology. His clinical practice focuses on the imaging of primary
+                    bone and soft-tissue tumors, metastatic disease, and post-treatment surveillance. He leads
+                    departmental strategy in innovation, education, and multidisciplinary integration, and supports the
+                    development of advanced imaging techniques and data-driven approaches to improve cancer diagnosis
+                    and patient management.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- MARK: PIERRE-->
+    <div class="modal" id="person-pierre" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog">
+            <button class="modal-close" aria-label="Close">✕</button>
+            <div class="modal-content" style="grid-column: 1/-1">
+                <div class="centered">
+                    <img src="assets/img/team/pierre/head.jpg" alt="Portrait of Pierre" class="personhead" />
+                </div>
+                <h3>Pierre-Emmanuel Colombo</h3>
+                <p class="muted">MD-PhD</p>
+                <p>
+                    Pr. Pierre-Emmanuel Colombo is Professor of Surgical Oncology at the Montpellier Cancer Center (ICM)
+                    and an internationally recognized expert in the management of gynecologic cancers, particularly
+                    advanced ovarian cancer. His clinical practice focuses on cytoreductive surgery combined with
+                    hyperthermic intraperitoneal chemotherapy (HIPEC), with a strong commitment to optimizing patient
+                    selection, improving perioperative outcomes, and refining strategies for recurrent disease. His
+                    research program explores prognostic and predictive factors, integration of biomarkers, and
+                    evaluation of innovative therapeutic approaches in high-risk settings. Pr. Colombo works closely
+                    with the PINKCC Lab to develop imaging- and AI-based tools that support resectability prediction and
+                    personalized treatment pathways, bridging surgical expertise with translational research. Actively
+                    involved in national and international collaborative networks, he plays a leading role in advancing
+                    standards of care and training the next generation of specialists in gynecologic oncology.
+                </p>
             </div>
         </div>
     </div>
