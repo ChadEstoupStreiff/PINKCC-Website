@@ -104,7 +104,6 @@ img {
 .logo {
   height: 36px;
   border-radius: 8px;
-  box-shadow: var(--shadow);
 }
 
 .nav {
@@ -119,6 +118,7 @@ a {
   padding: 8px 12px;
   border-radius: 10px;
 }
+
 a:hover {
   background: #ffe3ee;
 }
