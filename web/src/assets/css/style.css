@@ -29,7 +29,7 @@ body {
   background: var(--bg);
   line-height: 1.5;
 }
-img {
+img, iframe {
   max-width: 80%;
   border-radius: 16px;
   height: auto;
