@@ -1,0 +1,17 @@
+
+/* Publications */
+.pub-list {
+  display: grid;
+  gap: 18px;
+  counter-reset: item;
+  margin: 24px 0 0;
+  padding: 0;
+}
+.pub-list > li {
+  list-style: none;
+  padding: 18px;
+  border: 1px solid #f4e1eb;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
